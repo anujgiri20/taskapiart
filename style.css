@@ -1,0 +1,121 @@
+
+
+    hr{
+       
+        width:70%;
+      border:solid #8b440c 0.1px;
+      border-bottom: none;
+      margin: auto;
+     
+      
+      }
+.h{
+border-bottom:solid 1px #8b440c; 
+}
+.images
+{
+  width:50%;  
+}
+
+.carousel-item
+{
+    text-align: center;
+    
+}
+.carousel-control-prev
+{
+   
+margin-top:200px;
+
+
+}
+.carousel-control-next
+{
+    margin-top:200px;
+
+}
+
+
+.font
+{
+  
+    padding-left: 200px;
+    padding-right: 200px;
+    animation-duration: 3s; 
+    font-size: 8rem;
+    margin-top:50px;
+    color:rgb(187, 152, 140);
+
+    font-family: 'Antic Didone', serif;
+    font-weight: lighter;
+  
+}
+.font1{
+    animation-duration: 3s; 
+    font-size: 4rem;
+    margin-top:10px;
+    color:rgb(187, 152, 140);
+
+    font-family: 'Antic Didone', serif;
+    font-weight: lighter;   
+}
+
+.title
+{
+margin-top:60px;
+font-family: 'Italianno', cursive;
+font-size: 5rem;
+border-bottom: solid 1px #8b440c;
+color:rgb(187, 152, 140);
+}
+.artist
+{
+    color:rgb(187, 152, 140);
+    font-family: 'Sarabun', sans-serif
+}
+.display
+{
+    color:rgb(187, 152, 140);
+    font-family: 'Sarabun', sans-serif
+}
+.place
+{
+    color:rgb(187, 152, 140);
+    font-family: 'Sarabun', sans-serif;
+    margin-bottom:30px;
+}
+.container-fluid
+{
+    display: flex;
+    justify-content: center;
+}
+body{
+    
+        background-image: url("../image/back.jpg");
+}
+.img
+{
+
+    width:40%;
+  
+   margin-bottom:200px;
+    transition: transform .89s;
+    box-shadow: 5px 5px 5px 5px  black;
+   
+}
+/*this img.hover is going to add hover property and each time we hover img then it will zoom bec of property webkit-transform*/
+
+.img:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(2); 
+  }
+  .frontimg
+  {
+      animation-duration: 4s;
+      margin-top:30px;
+      width:35%;
+      border-radius:50%;
+      box-shadow: 5px 5px 5px 5px  rgb(187, 152, 140);
+      margin-bottom: 40px;
+  }
